@@ -4,21 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <h1>Shedrack</h1>
+    <h1></h1>
     
     <nav>
         <ul>
-            <li>Home</li>
-            <li>Project</li>
-            <li>Contact</li>
-            <li>Demo</li>
-            <li>Report</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="contact.html"class="active">Contact</a></li>
+            <li><a href="demo.html">Demo</a></li>
+            <li><a href="report.html">Report</a></li>
         </ul>
     </nav>
-    <main><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto inventore provident minima eum sed, voluptate repudiandae maiores id. Earum natus officia dolore dolores? Magni harum quisquam laudantium consequatur qui nihil.</p></main>
+    <main>
+        <div class="mainContent">
+            <div class="contactForm">
+                <h2>Contact info</h2>
+                <form action="#" method="POST">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </main>
     <aside></aside>
     <footer></footer>
 </body>

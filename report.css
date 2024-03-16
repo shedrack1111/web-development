@@ -61,7 +61,6 @@ nav ul li a{
 
 main {
     grid-area: main;
-    margin-top: 80px;
 }
 aside {
 
@@ -74,13 +73,4 @@ footer ul{
     display: flex;
 justify-content: center;
 margin-top: 9em;
-}
-.mainContent{
-    display: flex;
-    justify-content: space-between;
-
-}
-.words{
-    display: block;
-    margin-right: auto;
 }
