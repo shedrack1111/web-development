@@ -16,12 +16,15 @@ body {
     grid-template-areas:
     "header header header"
     "nav nav nav"
-    "maim main aside"
+    "maim main main"
     "footer footer footer";
-    background-image: url(wp9432338.webp);
+    /*background-image: url(wp9432338.webp);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;*/
+    background: black;
+    background: linear-gradient(122deg,black -10%,gray 110%);
+
 
 }
 header{
@@ -35,8 +38,8 @@ nav {
     grid-area: nav;
     color: black;
     display: flex;
-    
-    /* background-color: rgb(226, 98, 43); */
+    background-color: rgb(122, 84, 46);
+    background: linear-gradient(122deg, gray,rgba(122,84,46) 100%);
 }
 nav ul {
 
@@ -61,7 +64,59 @@ nav ul li a{
 
 main {
     grid-area: main;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    width: 70%;
+    position: relative;
+
 }
+
+.kidImg {
+    width: 90%;
+    border-radius: 10%;
+    transform: translate(0,0);
+    transition: transform 0.5s ease-in-out;
+}
+.kidImg:hover{
+    transform:translate(0,-10%);
+}
+
+.lawImg {
+    width: 90%;
+    border-radius: 10%;
+    transform: translate(0,0);
+    transition: transform 0.5s ease-in-out;
+}
+.lawImg:hover{
+    transform:translate(0,-10%);
+}
+
+.ltkImg {
+    width: 90%;
+    border-radius: 10%;
+    transform: translate(0,0);
+    transition: transform 0.5s ease-in-out;
+}
+.ltkImg:hover{
+    transform:translate(0,-10%);
+}
+.lufyImg {
+    width: 90%;
+    border-radius: 10%;
+    transform: translate(0,0);
+    transition: transform 0.5s ease-in-out;
+}
+.lufyImg:hover{
+    transform:translate(0,-10%);
+}
+
+
+
+
+
+
+
 aside {
 
 }

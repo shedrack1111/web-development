@@ -18,10 +18,13 @@ body {
     "nav nav nav"
     "maim main aside"
     "footer footer footer";
-    background-image: url(wp9432338.webp);
+   /*background-image: url(wp9432338.webp);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;*/
+    background: black;
+    background: linear-gradient(122deg,black -10%,gray 110%);
+
 
 }
 header{
@@ -35,6 +38,8 @@ nav {
     grid-area: nav;
     color: black;
     display: flex;
+    background-color: rgb(122, 84, 46);
+    background: linear-gradient(122deg, gray,rgba(122,84,46) 100%);
     
     /* background-color: rgb(226, 98, 43); */
 }
@@ -61,6 +66,9 @@ nav ul li a{
 
 main {
     grid-area: main;
+}
+.contactForm{
+    color: rgb(122, 84, 46);
 }
 aside {
 
