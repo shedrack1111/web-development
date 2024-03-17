@@ -82,10 +82,21 @@ margin-top: 9em;
 .mainContent{
     display: flex;
     justify-content: space-between;
-    color: rgb(122, 84, 46);
+    color: rgb(148, 111, 74);
 
 }
+.bitmoji{
+    transform: translate(0,0);
+    transition: transform 0.5s ease-in-out;
+}
+.bitmoji:hover{
+    transform:translate(0,-10%);
+}
+
 .words{
     display: block;
     margin-right: auto;
 }
+@media only screen and (max-width:800px) {
+    
+} 

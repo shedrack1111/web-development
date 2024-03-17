@@ -1,0 +1,26 @@
+.showNav {
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+    border-top: 0.2em solid rgb(245, 242, 242);
+    border-bottom: 0.2em solid rgb(240, 238, 238);
+}
+
+.showNav::before {
+    content: '';
+    position:absolute;
+    width: 1.25em;z
+    margin-top: 0.3em;
+    border-top: 0.2em solid ;
+}
+
+#clicked .on {
+    display: block;
+}
+#clicked .off {
+    display: none;
+}
+
+#clicked:target .off {
+    display: block;
+}

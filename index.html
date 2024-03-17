@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)">
 </head>
 
-<body>
+<body id="checked">
     <nav>
+        <a href="#clicked" class="showNav on "></a>
+       <a href="#" class="showNav off"></a>
         <ul style="text-decoration: none;">
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="project.html">Project</a></li>
@@ -21,7 +24,7 @@
 
     <main>
         <div class="mainContent">
-            <img src="bitmoji.png" alt="">
+            <img class="bitmoji" src="bitmoji.png" alt="">
             <div class="words">
             <h1> web development course</h1>
 
