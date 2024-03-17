@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="report.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)">
 </head>
 
-<body>
-    <nav>
+<body id="clicked">
+    <a href="#clicked" class="showNav on"></a>
+    <a href="#" class="showNav off"></a>
+    <nav class="off">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="project.html">Project</a></li>
@@ -18,11 +21,13 @@
             <li><a href="report.html" class="active">Report</a></li>
         </ul>
     </nav>
-    
 
-        <main>
+
+    <main>
+        <div class="report">
             <h1>My view and reflections on studying Web Development course </h1>
-            <p>At the beginning of the module, I started with very little idea regarding html and CSS, not to even talk
+            <p>
+                At the beginning of the module, I started with very little idea regarding html and CSS, not to even talk
                 about java script. At first i found everything so confusing, probably because i was missing most of the
                 online classes lol. But as we moved on I started picking up one or two knowledge and I had friends that
                 understood better than me so I started reaching out to them gathering more knowledge and soon enough i
@@ -38,16 +43,18 @@
                 easiest but a wasted too much time selecting a background color.
 
                 Overall, it was fun and stressful work on the website at the end I was able to make a simple website,
-                hopefully the next assessment won't be as stressful lol. </p>
-                <img src="Screenshotindex.html.png" alt="sc">
-                <img src="screenshotproject.png" alt="sc">
-                <img src="screenshotdemo.png" alt="sc">
-                <img src="screenshotcontact.png" alt="sc">
-                <img src="screenshotreport.png" alt="sc">
+                hopefully the next assessment won't be as stressful.
+             </p>
+            <img src="Screenshotindex.html.png" alt="sc">
+            <img src="screenshotcontact.png" alt="sc">
+            <img src="screenshotproject.png" alt="sc">
+            <img src="screenshotdemo.png" alt="sc">
+            <img src="screenshotreport.png" alt="sc">
+            
 
-                
-        </main>
-        
+        </div>
+    </main>
+
 </body>
 
 </html>

@@ -2,16 +2,36 @@
     height: 0.8em;
     width: 1.25em;
     display: block;
-    border-top: 0.2em solid rgb(245, 242, 242);
-    border-bottom: 0.2em solid rgb(240, 238, 238);
+    border-top: 0.2em solid rgb(255, 255, 255);
+    border-bottom: 0.2em solid rgb(255, 255, 255);
 }
 
 .showNav::before {
     content: '';
     position:absolute;
-    width: 1.25em;z
+    width: 1.25em;
     margin-top: 0.3em;
     border-top: 0.2em solid ;
+}
+nav{
+    display: none;
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+}
+nav ul{
+    display: block;
+    width: 20%;
+}
+nav ul li{
+    padding: 0.5em;
+}
+nav ul li a {
+   text-decoration: none;
 }
 
 #clicked .on {
@@ -20,7 +40,15 @@
 #clicked .off {
     display: none;
 }
-
+#clicked:target .on{
+    display: none;
+}
 #clicked:target .off {
     display: block;
+}
+form textarea{
+    width: 13em;
+}
+.report img{
+    width:40%;
 }

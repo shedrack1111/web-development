@@ -70,6 +70,14 @@ aside {
 
 }
 
+main{
+    display: block;
+    margin: auto;
+}
+iframe{
+    width: 50em;
+    margin-top: 10em;
+}
 footer {
 grid-area: footer;
 }

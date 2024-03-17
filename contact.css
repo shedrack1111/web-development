@@ -36,7 +36,7 @@ header{
 
 nav {
     grid-area: nav;
-    color: black;
+    color: rgb(18, 17, 17);
     display: flex;
     background-color: rgb(122, 84, 46);
     background: linear-gradient(122deg, gray,rgba(122,84,46) 100%);
