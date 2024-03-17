@@ -70,10 +70,7 @@ main {
 .contactForm{
     color: rgb(153, 118, 83);
 }
-aside {
-
-}
-
+ 
 footer {
 grid-area: footer;
 }

@@ -112,16 +112,6 @@ main {
     transform:translate(0,-10%);
 }
 
-
-
-
-
-
-
-aside {
-
-}
-
 footer {
 grid-area: footer;
 }

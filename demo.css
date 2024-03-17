@@ -66,16 +66,14 @@ nav ul li a{
 main {
     grid-area: main;
 }
-aside {
-
-}
+ 
 
 main{
     display: block;
     margin: auto;
 }
 iframe{
-    width: 50em;
+    width: 150%;
     margin-top: 10em;
 }
 footer {
